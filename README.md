@@ -8,7 +8,7 @@ Deploys the network infrastructure.
 #### [network-infra-params.json](network-infra-params.json)
 Parameters for the network infrastructure
 
-In YAML code, the `${EnvironmentName}` would be substituted with `UdacityUdagramProject` accordingly.
+In YAML code, the `${EnvironmentName}` would be substituted with `BlogPostDemo` accordingly.
 
 #### [servers-without-update-policy.yaml](servers-without-update-policy.yaml)
 Deploys the web servers with no Update Policy defined on the ASG
