@@ -1,4 +1,4 @@
-### Blog Title - Managing Rolling Updates in AWS Auto Scaling Groups with AWS CloudFormation Update Policy
+### Blog Title - [Managing Rolling Updates in AWS Auto Scaling Groups with AWS CloudFormation Update Policy](https://dev.to/obabawale/managing-rolling-updates-in-aws-auto-scaling-groups-with-aws-cloudformation-update-policy-part-2-15gj)
 This folder contains the CloudFormation codes used in the blog post.
 
 
@@ -22,7 +22,7 @@ Parameters for the web servers
 #### [create.sh](create.sh)
 Helper script to create the CloudFormation stack.
 For example, to create a network stack named 'infra` in US-EAST-1 using the network-infra.yaml template file and network-infra-params.json parameter file, use
- 
+
 `./create.sh infra network-infra.yaml network-infra-params.json us-east-1`
 
 #### [update.sh](update.sh)
